@@ -339,5 +339,36 @@ While a government creating the registry still has aspects that an egoist would 
 
 > However, there may be a small group of users who would still support having personal, traditional cars. As we saw in class, some people enjoy that act of driving enough that they would stay attached to traditional cars. Also, cars are seen in our society as a sign of independence, especially to teenagers gaining the ability to drive. While these people may not resist a partial adoption of self-driving cars, they would fight for the right to still own and operate a traditional car on public roads. 
 
+# WEB POST 7
 
+### Net Neutrality
+> The internet has become a place where people communicate, do business, expresses political ideas and more. As it grows in prevalence within our lives, we need to decide if we want ISP’s to build a system of pipes that they can squeeze or a system of roads with access to all information. This is important to egoist because it’s important to decide what's in our best interest and what system will allow us to pursue our own goals. Net Neutrality, in terms of the Egoist Framework, is ethically based on your position. As a small company, Net Neutrality allows for a truly fair playing field where all sites and services are given the same chance to compete. As a service provider, however, allowing the speed of the net to drive revenue and business is an ethical choice as it can be used as to a great of the company. Egoists allow for no universal ethical solution and the final ruling will depending on who in the real world gets to make the rules of enforcement. 
 
+### Computer-Assisted Warfare
+> There is a lot of information to suggest that machines and computers can play a role in war.  As technologies role becomes more prevalent it is important to address the questions of what is in the best interest of the people involved, and how technology will affect the people not only fighting but who will face the end result. From an egoist perspective of an average American citizen, using machines and computers at war could absolutely be in my best interest. If such technology allows the government to do their job more effectively and keep the country safer, then it would be in my best interest for them to do so. Even if I was a soldier using such technology, it is very likely that using machines and computers in warfare would be in my best interest since I probably wouldn’t have to put myself in as much physical danger. The parties who could be negatively affected by computer-assisted warfare are those who might be caught in the cross-fire of these weapons. Some may argue however that computer-assisted weapons could be more accurate and less destructive than traditional weaponry. This might not be true today, but could be true in the future. For the average American or soldier, though, it would be in their best interest to use machines and computers in warfare because they lose nothing from it and it’s safer for them.
+
+### Diversity in the technology sector
+> Diversity has been a complicated issue for technology to address. It has been hard for many to break into what has traditionally been a field of white men. As technology becomes easier for people to use and develop it is important to address what teams are most effective. For an egoist, the concern surrounding diversity is who the diversity benefits and who it harms. As are many issues in egoism, the ethics of diversity depend on who the actor is. An egoist might argue that a white male should be against diversity in tech, as that would harm their employment chances. Conversely, an egoist might argue that a minority woman should be for diversity in tech, as, currently, the odds are stacked against her. However, for this purpose, we will call the corporation the actor. In this case, egoists would be in favor of diversity, as it has been shown in the past to objectively help team outcomes in big corporations.
+
+### Algorithm For Egoist Framework
+#### Inputs/Assumptions
+> The two main inputs to the algorithm are the person and the action.  The egoist framework is applied from the perspective of the person given as input.  We assume that the person in this case knows exactly what is in their self interest and that we can know what the outcomes of a particular action are.  These assumptions are made in order to simplify the algorithm and convey the purpose of the egoist framework.  In practice, however knowing the outcomes and knowing what is in one’s own self interest are two of the most difficult aspects of the egoist framework and can sometimes be impossible to determine. 
+
+Class Person{
+  > public: <br>
+  > string * get_selfinterests() <br>
+  > void doAction(Action action) <br>
+ <br><br>
+  > private: <br>
+  > string self_interests[] <br>
+  > string type = egoist <br>
+
+}
+
+int main(){ <br>
+  > Action action; <br>
+  > Person person; <br>
+  > if action.result is in person.self_interests(): <br>
+	  * person.doAction(action); <br>
+  > else:<br>
+	  * return; <br>
